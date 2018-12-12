@@ -1,0 +1,25 @@
+#history {
+    background-color: rgb(242,102,0);
+}
+
+.transactiondetail {
+    color: rgb(80,80,80);
+    font-weight: bold;
+    text-align: right;
+    margin-top: 10pt;
+}
+
+.transactionbook {
+    display: flex;
+    flex-direction: row;
+}
+
+textarea {
+    width: 95%;
+}
+
+#bookdetail {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

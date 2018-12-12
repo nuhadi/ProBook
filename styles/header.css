@@ -1,0 +1,96 @@
+
+body{
+    margin:0;
+}
+
+header {
+    size:20%;
+    display:flex;
+    flex-direction: column;
+    font-size: 1.4em;
+    margin: 0;
+    background-color:rgb(0, 174, 239);
+    color:white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header section {
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+}
+
+header h1 {
+    display:inline-block;
+    font-size: 40pt;
+    height:50pt;
+    margin:0;
+    padding:10pt;
+}
+
+#pro {
+    color:rgb(242, 216, 0);
+}
+
+header nav{
+    display:flex;
+    flex-direction: row;
+    font-size:1.4em;
+    background-color: black;
+}
+
+
+
+.navoption {
+    background-color:rgb(0, 148, 204);
+    padding-top:1%;
+    padding-bottom: 1%;
+    display:block;
+    float:left;
+    width: 33%;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.navoption::first-letter{
+    font-size:1.3em;
+}
+
+.navoption:hover{
+    background-color: aqua;
+}
+
+#history {
+    width:33.8%;
+    margin-left:0.1%;
+    margin-right:0.1%;
+}
+
+
+
+#greet-user {
+    margin-top: 10pt;
+    margin-right: 10pt;
+    text-decoration: underline;
+    color: white;
+    float: right;
+}
+
+#logout {
+    margin:0;
+    padding:0;
+    color: white;
+    float: right;
+    height: 70pt;
+}
+
+#logout:hover {
+    lighting-color: aliceblue;
+}
+
+/**/
